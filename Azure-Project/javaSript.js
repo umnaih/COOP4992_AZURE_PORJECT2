@@ -23,13 +23,13 @@ window.addEventListener(
 
         //HTTP Post Request
         var URL =
-          "https://southcentralus.api.cognitive.microsoft.com/customvision/v3.0/Prediction/4329c263-f29f-4a70-ab53-895655c84d91/classify/iterations/Iteration1/image";
+          "/subscriptions/229ce9b8-cf07-488d-81ea-d4a1ae56396c/resourceGroups/Resource-Group-Project2/providers/Microsoft.CognitiveServices/accounts/Resource-Project2";
         var xhr = new XMLHttpRequest();
 
         xhr.open("POST", URL, true);
         xhr.setRequestHeader(
           "Prediction-Key",
-          "a6161e29140945db9fdb8a3ae3a9521f"
+          "34e277abac0847bc8a935591c26533d5"
         );
         xhr.setRequestHeader("Content-Type", "application/octet-stream");
 

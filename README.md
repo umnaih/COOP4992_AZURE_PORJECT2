@@ -26,13 +26,13 @@ Here are the steps that I used to do this project:
 # Solution Infrastructure Diagram for custome vision
 ![Solution Infrastructure Diagram](https://github.com/umnaih/COP4492--Proejct/blob/main/Solution%20Infrastructure%20Diagram.png)
 # Solution Infrastructure Diagram for Static Web App
-![Solution Infrastructure Diagram](https://github.com/umnaih/COP4492--Proejct/blob/main/Solution%20Infrastructure%20Diagram.png)
+![Solution Infrastructure Diagram](https://github.com/umnaih/COOP4992_AZURE_PORJECT2/blob/main/webAPP.png)
 
 # Precision and Recall 
 ## in iteration 1
-![Precision and Recall 1](https://github.com/umnaih/COP4492--Proejct/blob/main/Precision%2C%20Recall%201.png)
+![Precision and Recall 1](https://github.com/umnaih/COOP4992_AZURE_PORJECT2/blob/main/iteration1.png)
 ## in iteration 2
-![Precision and Recall](https://github.com/umnaih/COP4492--Proejct/blob/main/Precision%2C%20Recall%202.png)
+![Precision and Recall 2](https://github.com/umnaih/COOP4992_AZURE_PORJECT2/blob/main/webAPP.png)
 
 # test
 ## test for an image has a Tumor
@@ -48,5 +48,5 @@ Here are the steps that I used to do this project:
 ### in iteration 2
 ![does not have a Tumor 2](https://github.com/umnaih/COP4492--Proejct/blob/main/NO-iteration%202.png)
 
-## web app disploy
-
+## Static Web App
+![Static Web App](https://github.com/umnaih/COOP4992_AZURE_PORJECT2/blob/main/webAPPsCRREN.png)

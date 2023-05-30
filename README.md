@@ -36,7 +36,7 @@ Here are the steps that I used to do this project:
 ## in iteration 1
 ![Precision and Recall 1](https://github.com/umnaih/COOP4992_AZURE_PORJECT2/blob/main/iteration1.png)
 ## in iteration 2
-![Precision and Recall 2](https://github.com/umnaih/COOP4992_AZURE_PORJECT2/blob/main/webAPP.png)
+![Precision and Recall 2](https://github.com/umnaih/COOP4992_AZURE_PORJECT2/blob/main/iteration2.png)
 
 # test
 ## test for an image has a Tumor

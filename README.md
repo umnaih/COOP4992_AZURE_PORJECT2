@@ -6,9 +6,6 @@ Azure Cognitive Services, specifically, the vision service, which is a PaaS solu
 ## dataset
 dataset was taken from https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection?resource=download
 
-## deploy static web app for this project
-https://ambitious-glacier-0d92eef10.3.azurestaticapps.net/
-
 # PROJECT OVERIVEW
 Here are the steps that I used to do this project:
 1.	Create Custom Vision resources. 

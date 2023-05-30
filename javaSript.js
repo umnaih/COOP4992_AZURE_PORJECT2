@@ -15,31 +15,34 @@ window.addEventListener(
       }
     };
 
+    var button = document.getElementById("button");
     button.addEventListener(
       "click",
       function () {
         const file = document.getElementById("capture").files[0];
         console.log(file);
 
-        //HTTP Post Request
+        // HTTP Post Request
         var URL =
-          "/subscriptions/229ce9b8-cf07-488d-81ea-d4a1ae56396c/resourceGroups/Resource-Group-Project2/providers/Microsoft.CognitiveServices/accounts/Resource-Project2";
+          "https://www.customvision.ai/projects/5dc48009-0177-446d-aa33-ee3870b05aeb#/performance:~:text=https%3A//southcentralus.api.cognitive.microsoft.com/customvision/v3.0/Prediction/5dc48009%2D0177%2D446d%2Daa33%2Dee3870b05aeb/classify/iterations/Iteration2%2DTamurModel/url";
         var xhr = new XMLHttpRequest();
 
         xhr.open("POST", URL, true);
         xhr.setRequestHeader(
           "Prediction-Key",
-          "34e277abac0847bc8a935591c26533d5"
+          "05960586f4d94ae7bd2f9f4123aa0799"
         );
-        xhr.setRequestHeader("Content-Type", "application/octet-stream");
+        xhr.setRequestHeader("Content-Type", "application/json");
 
-        xhr.send(file);
+        var formData = new FormData();
+        formData.append("image", file);
+        xhr.send(formData);
 
         xhr.onreadystatechange = processRequest;
 
         function processRequest(e) {
           if (xhr.readyState == 4 && xhr.status == 200) {
-            //alert(xhr.responseText);
+            // alert(xhr.responseText);
             console.log(typeof xhr.responseText);
             var json = JSON.parse(xhr.responseText);
             console.log(json);

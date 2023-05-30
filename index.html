@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <script src="javaSript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </head>
+  <body>
+    <!--Navigation for normal screens-->
+    <nav id="navigation">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo center">Custom Vision</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down"></ul>
+      </div>
+    </nav>
+    <!--Navigation ends-->
+
+    <div class="container">
+      <!-- Page Content goes here -->
+      <div class="file-field input-field">
+        <div class="btn">
+          <span>File</span>
+          <input type="file" accept="image/*" id="capture" capture="camera" />
+        </div>
+        <div class="file-path-wrapper">
+          <input class="file-path validate" type="text" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col l4 xl4"></div>
+        <div class="picture col s12 l4 m12 xl4">
+          <div id="PicturePreview">
+            <img id="PredictedPicture" src="" alt="" />
+          </div>
+        </div>
+        <div class="col l4 xl4"></div>
+      </div>
+
+      <div class="row">
+        <div class="col l4 xl4"></div>
+        <div class="button col s12 l4 m12 xl4">
+          <div class="PredictButton">
+            <button
+              id="button"
+              class="waves-effect waves-light btn-large center-align"
+              type="submit"
+              name="action"
+            >
+              Predict
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+        </div>
+        <div class="col l4 xl4"></div>
+      </div>
+
+      <div class="row">
+        <div class="col l4 xl4"></div>
+        <div class="col col s12 l4 m12 xl4">
+          <table class="centered" id="myTable">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Accuracy</th>
+              </tr>
+            </thead>
+
+            <tbody></tbody>
+          </table>
+        </div>
+        <div class="col l4 xl4"></div>
+      </div>
+    </div>
+
+    <style>
+      #navigation {
+        background-color: #20bc94;
+      }
+      @media only screen and (max-width: 370px) {
+        a.brand-logo.center {
+          font-size: 20px;
+        }
+      }
+      #PicturePreview {
+        text-align: center;
+      }
+      #PredictedPicture {
+        width: 200px;
+        height: auto;
+        object-fit: cover;
+      }
+      .picture.col.m12 {
+        float: none;
+      }
+      .picture.col.l4 {
+        float: left;
+      }
+      .button.col.m12 {
+        float: none;
+      }
+      .button.col.l4 {
+        float: left;
+      }
+      .PredictButton {
+        text-align: center;
+      }
+      .btn,
+      .btn-large,
+      .btn-small {
+        background-color: #20bc94 !important;
+      }
+      .btn:hover,
+      .btn-large:hover,
+      .btn-small:hover {
+        background-color: #20bc94 !important;
+      }
+      .btn:hover,
+      .btn-large:hover,
+      .btn-small:hover {
+        background-color: #20bc94 !important;
+      }
+      .btn,
+      .btn-large,
+      .btn-small {
+        background-color: #20bc94 !important;
+      }
+      input.valid:not([type]),
+      input.valid:not([type]):focus,
+      input.valid[type="text"]:not(.browser-default),
+      input.valid[type="text"]:not(.browser-default):focus,
+      input.valid[type="password"]:not(.browser-default),
+      input.valid[type="password"]:not(.browser-default):focus,
+      input.valid[type="email"]:not(.browser-default),
+      input.valid[type="email"]:not(.browser-default):focus,
+      input.valid[type="url"]:not(.browser-default),
+      input.valid[type="url"]:not(.browser-default):focus,
+      input.valid[type="time"]:not(.browser-default),
+      input.valid[type="time"]:not(.browser-default):focus,
+      input.valid[type="date"]:not(.browser-default),
+      input.valid[type="date"]:not(.browser-default):focus,
+      input.valid[type="datetime"]:not(.browser-default),
+      input.valid[type="datetime"]:not(.browser-default):focus,
+      input.valid[type="datetime-local"]:not(.browser-default),
+      input.valid[type="datetime-local"]:not(.browser-default):focus,
+      input.valid[type="tel"]:not(.browser-default),
+      input.valid[type="tel"]:not(.browser-default):focus,
+      input.valid[type="number"]:not(.browser-default),
+      input.valid[type="number"]:not(.browser-default):focus,
+      input.valid[type="search"]:not(.browser-default),
+      input.valid[type="search"]:not(.browser-default):focus,
+      textarea.materialize-textarea.valid,
+      textarea.materialize-textarea.valid:focus,
+      .select-wrapper.valid > input.select-dropdown {
+        border-bottom: 1px solid #20bc94 !important;
+        -webkit-box-shadow: 0 1px 0 0 #20bc94 !important;
+        box-shadow: 0 1px 0 0 #20bc94 !important;
+      }
+      td {
+        text-align: center;
+      }
+    </style>
+  </body>
+</html>

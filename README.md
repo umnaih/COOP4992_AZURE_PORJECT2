@@ -35,19 +35,3 @@ Here are the steps that I used to do this project:
 ## in iteration 2
 ![Precision and Recall 2](https://github.com/umnaih/COOP4992_AZURE_PORJECT2/blob/main/iteration2.png)
 
-# test
-## test for an image has a Tumor
-### in iteration 1
-![has Toumor 1](https://github.com/umnaih/COP4492--Proejct/blob/main/YES-iteration%201.png)
-### in iteration 2
-![has Toumor 2](https://github.com/umnaih/COP4492--Proejct/blob/main/YES-iteration%202.png)
-
-
-## test for an image does not have a Tumor
-### in iteration 1
-![does not have a Tumor 1](https://github.com/umnaih/COP4492--Proejct/blob/main/NO-iteration%201.png)
-### in iteration 2
-![does not have a Tumor 2](https://github.com/umnaih/COP4492--Proejct/blob/main/NO-iteration%202.png)
-
-## Static Web App
-![Static Web App](https://github.com/umnaih/COOP4992_AZURE_PORJECT2/blob/main/webAPPsCRREN.png)
